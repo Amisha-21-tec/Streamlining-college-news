@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="comp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Streamling ViMEET News</title>
+    <div class="topnav">
+        <a herf=""><img src="logo.jpg" alt="doctor.com"  width="50" height="40"></a>
+        <a class="active" href="http://127.0.0.1:5501/f1.html">Vishwaniketan News Publishing VNP</a>
+        <a href="#"></a>   
+  
+      <!--<div class="menu">You are not logged in. (<a href="#">Log in</a>)</div>-->
+  </div>
+</head>
+<body>
+    
+<div class="topnavb" id="myTopnavb">
+    <a href="http://127.0.0.1:5500/Home_Page/f1.html" >Home</a>
+    <a href="http://127.0.0.1:5500/Home_Page/contactus.html">Contact</a>
+    <a href="http://127.0.0.1:5500/Home_Page/aboutus.html#about">About</a>
+    <div class="dropdown">
+      <a href="javascript:void(0);" class="split" onclick="toggleSettingsDropdown()">
+        <i class="fa fa-cog"></i>
+      </a>
+      <div class="dropdown-content" id="settingsDropdown">
+        <!-- Dropdown items go here -->
+        <a href="http://127.0.0.1:5500/Home_Page/help.html">Help</a>
+        <a href="http://127.0.0.1:5500/Home_Page/privacy.html">Privacy</a>
+        <!-- Add more settings options as needed -->
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  
+ <!-- Side navigation -->
+<div class="sidenav">
+    <h3 style="margin-left: 16px; font-family:'Times New Roman', Times, serif;color: #f6f3f3;">Computer</h3>
+    <a href="http://127.0.0.1:5500/Home_Page/sec-comp.html">SE Computer</a>
+    <a href="http://127.0.0.1:5500/Home_Page/te-comp.html">TE Computer</a>
+    <a href="http://127.0.0.1:5500/Home_Page/be-comp.html"style=" background-color: #04AA6D;color: #333;border: 1px solid #333;">BE Computer</a>
+
+    <h3 style="margin-left: 16px; font-family:'Times New Roman', Times, serif;
+    color: #f6f3f3;">AIML</h3>
+    <a href="http://127.0.0.1:5501/Comp_Department/SEcomp.html">SE AIML</a>
+    <a href="http://127.0.0.1:5501/Comp_Department/TEcomps.html">TE AIML</a>
+    <a href="#">BE AIML</a>
+
+
+  <h3 style="margin-left: 16px; font-family:'Times New Roman', Times, serif;
+    color: #f6f3f3;">EXTC</h3>
+    <a href="http://127.0.0.1:5501/Comp_Department/SEcomp.html">SE EXTC</a>
+    <a href="http://127.0.0.1:5501/Comp_Department/TEcomps.html">TE EXTC</a>
+    <a href="#">BE EXTC</a>
+  
+
+  <h3 style="margin-left: 16px; font-family:'Times New Roman', Times, serif;
+    color: #f6f3f3;">Civil</h3>
+    <a href="http://127.0.0.1:5501/Comp_Department/SEcomp.html">SE Civil</a>
+    <a href="http://127.0.0.1:5501/Comp_Department/TEcomps.html">TE Civil</a>
+    <a href="#">BE Civil</a>
+ 
+
+  <h3 style="margin-left: 16px; font-family:'Times New Roman', Times, serif;
+    color: #f6f3f3;">Electrical</h3>
+    <a href="http://127.0.0.1:5501/Comp_Department/SEcomp.html">SE Electrical</a>
+    <a href="http://127.0.0.1:5501/Comp_Department/TEcomps.html">TE Electrical</a>
+    <a href="#">BE Electrical</a>
+ 
+
+  <h3 style="margin-left: 16px; font-family:'Times New Roman', Times, serif;
+    color: #f6f3f3;">Mechanical</h3>
+    <a href="http://127.0.0.1:5501/Comp_Department/SEcomp.html">SE Mechanical</a>
+    <a href="http://127.0.0.1:5501/Comp_Department/TEcomps.html">TE Mechanical</a>
+    <a href="#">BE Mechanical</a>
+  </div>
+ 
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+
+
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .image-list {
+      list-style-type: none;
+      padding: 20px 300px;
+    }
+    
+    .image-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    .image-item img {
+      max-width: 70px;
+      height: auto;
+      margin-right: 20px;
+    }
+    
+    .button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      cursor: pointer;
+      margin-right: 10px; /* Add some margin between buttons */
+    }
+  
+    /* Add space between buttons */
+    .button + .button {
+      margin-left: 10px;
+    }
+    
+    .button.view {
+      background-color: #008CBA;
+    }
+    
+    .button.download {
+      background-color: #f44336;
+    }
+  </style>
+
+  <style>
+    body {
+      font-family: Verdana, sans-serif;
+      margin: 0;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .row > .column {
+      padding: 0 8px;
+    }
+    
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    .column {
+      float: left;
+      width: 250px;
+      height: 200px;
+    }
+    
+    /* The Modal (background) */
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      padding-top: 100px;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: black;
+    }
+    
+    /* Modal Content */
+    .modal-content {
+      position: relative;
+      background-color: #000000;
+      margin: auto;
+      padding: 0;
+      width: 50%;
+      max-width: 1200px;
+    }
+    
+    /* The Close Button */
+    .close {
+      color: white;
+      position: absolute;
+      top: 10px;
+      right: 25px;
+      font-size: 35px;
+      font-weight: bold;
+    }
+    
+    .close:hover,
+    .close:focus {
+      color: #999;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    .mySlides {
+      display: none;
+    }
+    
+    .cursor {
+      cursor: pointer;
+    }
+    
+    /* Next & previous buttons */
+    .prev,
+    .next {
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      width: auto;
+      padding: 16px;
+      margin-top: -50px;
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      transition: 0.6s ease;
+      border-radius: 0 3px 3px 0;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    
+    /* Position the "next button" to the right */
+    .next {
+      right: 0;
+      border-radius: 3px 0 0 3px;
+    }
+    
+    /* On hover, add a black background color with a little bit see-through */
+    .prev:hover,
+    .next:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    /* Number text (1/3 etc) */
+    .numbertext {
+      color: #f2f2f2;
+      font-size: 12px;
+      padding: 8px 12px;
+      position: absolute;
+      top: 0;
+    }
+    
+    img {
+      margin-bottom: -4px;
+    }
+    
+    .caption-container {
+      text-align: center;
+      background-color: black;
+      padding: 2px 16px;
+      color: white;
+    }
+    
+    .demo {
+      opacity: 0.6;
+    }
+    
+    .active,
+    .demo:hover {
+      opacity: 1;
+    }
+    
+    img.hover-shadow {
+      transition: 0.3s;
+    }
+    
+    .hover-shadow:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    </style>
+    
+  
+  </head>
+  
+  
+<body>
+
+        <h2 style="text-align:center">Lightbox</h2>
+        
+        <div class="row">
+          <div class="column">
+            <img src="t-n1.jpeg" style="width:200px; height:190px" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+          </div>
+          <div class="column">
+            <img src="t-n1.jpeg" style="width:235px; height:340px"onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+            <a href="t-n2.jpeg" download class="button download">Download</a>
+          </div>
+          <div class="column">
+            <img src="t-n2.jpeg" style="width:235px; height:340px" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+            <a href="t-n3.jpeg" download class="button download">Download</a>
+          </div>
+          <div class="column">
+            <img src="t-n3.jpeg" style="width:235px; height:340px" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+            <a href="t-n4.jpeg" download class="button download">Download</a>
+          </div>
+          <div class="column">
+            <img src="t-n4.jpeg" style="width:235px; height:340px" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+            <a href="t-n5.jpeg" download class="button download">Download</a>
+          </div>
+          <div class="column">
+            <img src="t-n5.jpeg" style="width:235px; height:340px" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+            <a href="t-n1.jpeg" download class="button download">Download</a>
+          </div>
+        </div>
+        
+        <div id="myModal" class="modal">
+          <span class="close cursor" onclick="closeModal()">&times;</span>
+          <div class="modal-content">
+        
+            <div class="mySlides">
+              <div class="numbertext">1 / 5</div>
+              <img src="t-n1.jpeg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">2 / 5</div>
+              <img src="t-n2.jpeg" style="width:100%">
+            </div>
+        
+            <div class="mySlides">
+              <div class="numbertext">3 / 5</div>
+              <img src="t-n3.jpeg" style="width:100%">
+            </div>
+            
+            <div class="mySlides">
+              <div class="numbertext">4 / 5</div>
+              <img src="t-n4.jpeg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 5</div>
+                <img src="t-n5.jpeg" style="width:100%">
+              </div>
+            
+              <div class="mySlides">
+                <div class="numbertext">5 / 5</div>
+                <img src="t-n1.jpeg" style="width:100%">
+              </div>
+            
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <div class="caption-container">
+              <p id="caption"></p>
+            </div>
+        
+        
+            <div class="row">
+                <img class="demo cursor" src="t-n1.jpeg" style="width:100px; height:100px" onclick="currentSlide(1)" alt="Notice 1">
+    
+                <img class="demo cursor" src="t-n2.jpeg" style="width:100px; height:100px" onclick="currentSlide(2)" alt="Notice 2">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="t-n3.jpeg" style="width:100px; height:100px" onclick="currentSlide(3)" alt="Notice 3">
+             
+                <img class="demo cursor" src="t-n4.jpeg" style="width:100px; height:100px" onclick="currentSlide(4)" alt="Notice 4">
+              </div>
+              <div class="column">
+                <img class="demo cursor" src="t-n5.jpeg" style="width:100px; height:100px" onclick="currentSlide(5)" alt="Notice 5">
+              </div>
+              
+            </div>
+          </div>
+          
+          <script>
+          function openModal() {
+            document.getElementById("myModal").style.display = "block";
+          }
+          
+          function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+          }
+          
+          var slideIndex = 1;
+          showSlides(slideIndex);
+          
+          function plusSlides(n) {
+            showSlides(slideIndex += n);
+          }
+          
+          function currentSlide(n) {
+            showSlides(slideIndex = n);
+          }
+          
+          function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            var captionText = document.getElementById("caption");
+            if (n > slides.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = slides.length}
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";
+            dots[slideIndex-1].className += " active";
+            captionText.innerHTML = dots[slideIndex-1].alt;
+          }
+          </script>
+          <script>// JavaScript
+            function toggleSettingsDropdown() {
+              var dropdown = document.getElementById("settingsDropdown");
+              dropdown.style.display === "block" ? dropdown.style.display = "none" : dropdown.style.display = "block";
+            }
+            </script>   
+
+
+
+            
+          </body>
+          </html>
+          

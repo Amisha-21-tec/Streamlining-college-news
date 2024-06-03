@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Streamling ViMEET News</title>
+    <div class="topnav">
+        <a herf=""><img src="logo.jpg" alt="doctor.com"  width="50" height="40"></a>
+        <a class="active" href="http://127.0.0.1:5501/f1.html">Vishwaniketan News Publishing VNP</a>
+        <a href="#"></a>   
+  
+      <!--<div class="menu">You are not logged in. (<a href="#">Log in</a>)</div>-->
+  </div>
+</head>
+<body>
+    
+<div class="topnavb" id="myTopnavb">
+    <a href="http://127.0.0.1:5500/Home_Page/f1.html">Home</a>
+    <a href="http://127.0.0.1:5500/Home_Page/contactus.html">Contact</a>
+    <a href="http://127.0.0.1:5500/Home_Page/aboutus.html#about" class="active">About</a>
+    <div class="dropdown">
+      <a href="javascript:void(0);" class="split" onclick="toggleSettingsDropdown()">
+        <i class="fa fa-cog"></i>
+      </a>
+      <div class="dropdown-content" id="settingsDropdown">
+        <!-- Dropdown items go here -->
+        <a href="http://127.0.0.1:5500/Home_Page/help.html">Help</a>
+        <a href="http://127.0.0.1:5500/Home_Page/privacy.html">Privacy</a>
+        <!-- Add more settings options as needed -->
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+
+  <div class="container">
+    <img src="vimeet.jpeg" alt="Jane" class="centered-image" width="100%" height="500px">
+  </div>
+  
+
+  
+  <!-- Main Content -->
+  <main>
+    <section id="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Welcome to College News, your source for the latest updates and stories from colleges and universities around the world. We are dedicated to providing accurate and timely news coverage to our readers.</p>
+        <p>At College News, we believe in the power of information to inspire and empower students, educators, and communities. Our team is committed to delivering high-quality journalism that informs, educates, and entertains.</p>
+        <p>Whether it's campus events, student achievements, academic developments, or campus culture, we strive to capture the essence of college life and share it with our audience.</p>
+        <h3>Our Mission</h3>
+        <p>Our mission is to be the leading source of college news and information, fostering a sense of community and connection among students, faculty, and alumni.</p>
+        <h3>Our Team</h3>
+        <p>College News is run by a team of passionate journalists, editors, and contributors who are dedicated to excellence in journalism. Meet our team:</p>
+        <!-- List your team members here -->
+        <ul>
+          <li>ABC  - Editor-in-Chief</li>
+          <li>PQR - Senior Reporter</li>
+          <li>XYZ - Photojournalist</li>
+          <!-- Add more team members as needed -->
+        </ul>
+        <img src="aplus.PNG" alt="Jane" class="centered-image" width="100%" height="200px">
+      </div>
+    </section>
+  </main>
+  
+
+
+  <script>// JavaScript
+    function toggleSettingsDropdown() {
+      var dropdown = document.getElementById("settingsDropdown");
+      dropdown.style.display === "block" ? dropdown.style.display = "none" : dropdown.style.display = "block";
+    }
+    </script>
+
+
+    <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+      }
+
+      .footer {
+          background-color: #222;
+          color: #fff;
+          padding: 40px 0;
+          text-align: center;
+      }
+
+      .footer-logo {
+          font-size: 24px;
+          margin-bottom: 20px;
+          font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+
+      .footer p {
+          margin: 10px 0;
+      }
+
+      .footer a {
+          color: #fff;
+          text-decoration: none;
+      }
+
+      .footer a:hover {
+          text-decoration: underline;
+      }
+
+      .footer-social {
+          margin-top: 20px;
+      }
+
+      .footer-social a {
+          display: inline-block;
+          width: 40px;
+          height: 40px;
+          background-color: #333;
+          border-radius: 50%;
+          line-height: 40px;
+          margin: 0 10px;
+          color: #fff;
+          font-size: 20px;
+          transition: background-color 0.3s, color 0.3s;
+      }
+
+      .footer-social a:hover {
+          background-color: #555;
+      }
+  </style>
+
+  <footer class="footer">
+      <div class="footer-logo">Vishwaniketan News Publishing VNP</div>
+      <p>&copy; 2024 All rights reserved</p>
+      <div class="footer-social">
+          <a href="https://m.facebook.com/Vishwaniketan" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/vishwaniketan" title="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/vishwaniketan_.engineering?igsh=MW9hcXZmbHlwanp4MA==" title="Instagram"><i class="fab fa-instagram"></i></a>
+          <!-- Add more social media icons as needed -->
+      </div>
+  </footer>
+
+    
+</body>
+</html>
